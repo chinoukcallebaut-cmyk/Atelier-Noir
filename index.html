@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Atelier Noir — Geur voor makers</title>
+  <meta name="description" content="Atelier Noir maakt geur zoals jij een werk maakt. Vier geuren, vier handschriften. Schrijf je in en ruik het eerst.">
+  <meta name="theme-color" content="#F2EDE4">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.ico" sizes="48x48">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Fraunces:ital,opsz,wght,SOFT@0,9..144,400..600,50;1,9..144,400..600,50&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preload" as="image" href="img/hero-amber-duo.jpg">
+
+  <!-- MailerLite Universal -->
+  <script>
+      (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+      .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+      n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+      (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+      ml('account', '2744852');
+  </script>
+  <!-- End MailerLite Universal -->
+
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skiplink" href="#main">Ga naar de inhoud</a>
+
+  <header class="kop" id="top">
+    <div class="kop__binnen">
+      <a class="woordmerk" href="#top" aria-label="Atelier Noir, naar boven">Atelier Noir</a>
+      <nav class="nav" aria-label="Hoofdmenu">
+        <ul>
+          <li><a href="#verhaal">Verhaal</a></li>
+          <li><a href="#geuren">Geuren</a></li>
+          <li><a class="knop knop--klein" href="#inschrijven">Schrijf je in</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero" aria-labelledby="hero-titel">
+      <div class="hero__binnen">
+        <div class="hero__tekst">
+          <h1 id="hero-titel" class="display">Draag je signatuur.</h1>
+          <p class="intro">Atelier Noir maakt geur zoals jij een werk maakt. Eerst de vlek. Dan de vorm. Laag over laag, tot er iets staat dat van niemand anders is.</p>
+          <div class="hero__acties">
+            <a class="knop" href="#inschrijven">Schrijf je in</a>
+            <a class="tekstlink" href="#geuren">Ontdek de geuren</a>
+          </div>
+          <p class="klein hero__noot">Schrijf je in en ruik het eerst. Hoogstens twee mails per maand.</p>
+        </div>
+
+        <figure class="hero__beeld">
+          <video class="hero__video" id="hero-video"
+                 src="video/an-campagne-9x16.mp4"
+                 poster="img/hero-amber-duo.jpg"
+                 muted loop playsinline preload="metadata"
+                 aria-label="Campagnefilm: de flesjes van Atelier Noir tussen aquarelbloemen">
+          </video>
+          <button class="videoknop" type="button" id="video-knop" aria-pressed="false" hidden>
+            <span class="videoknop__icoon" aria-hidden="true"></span>
+            <span class="videoknop__tekst">Pauzeer film</span>
+          </button>
+        </figure>
+      </div>
+    </section>
+
+    <!-- VERHAAL -->
+    <section class="verhaal" id="verhaal" aria-labelledby="verhaal-titel">
+      <div class="verhaal__binnen">
+        <figure class="verhaal__beeld">
+          <img src="img/verhaal-aquarel.jpg" width="900" height="1321" loading="lazy"
+               alt="Aquarel van losse bloemen in olijf, roest en inkt die uitvloeien op wit papier">
+        </figure>
+
+        <div class="verhaal__tekst">
+          <h2 id="verhaal-titel">Het begon met één streek die niet wilde drogen.</h2>
+          <p class="intro">Elk werk begint ergens. Het onze in een atelier.</p>
+          <p>Een tafel vol schetsen. Potten inkt. Een raam dat ’s&nbsp;avonds oranje kleurt.</p>
+          <p>Op het doek bleef één streek dagenlang nat. Donker, warm, een beetje rokerig. Niemand durfde erover te schilderen.</p>
+          <p>Die streek gaf ons de naam. Atelier, voor de plek waar je maakt. Noir, voor de inkt van de eerste schets.</p>
+          <p>Daarna volgden Amber, voor het licht na zes uur. Iris, voor de stilte voor de eerste streek. En Sage, voor het penseel dat buiten droogt.</p>
+          <blockquote class="accent">We maken geen geur om in te passen. We maken een geur die een gesprek opent.</blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- GEUREN -->
+    <section class="geuren" id="geuren" aria-labelledby="geuren-titel">
+      <div class="geuren__binnen">
+        <header class="sectiekop">
+          <h2 id="geuren-titel">Vier geuren, vier handschriften.</h2>
+          <p class="intro">Geen van hen is af. Dat doe jij, op je huid.</p>
+        </header>
+      </div>
+
+      <div class="stapel">
+          <article class="geur" id="amber" style="--i: 0" aria-labelledby="geur-amber">
+            <div class="geur__binnen">
+            <figure class="geur__beeld">
+              <img src="img/geur-amber.jpg" width="900" height="1612" loading="lazy" alt="Flesje Amber met amberkleurige geur tussen aquarelbloemen in roest en olijf">
+            </figure>
+            <div class="geur__tekst">
+              <h3 id="geur-amber">Amber</h3>
+              <p class="geur__regel">Warm als hars op een palet.</p>
+              <p>Amber zit tussen inkt en hars. Warm genoeg om op te vallen, stil genoeg om te blijven. Voor het licht na zes uur, als de werktafel nog warm is.</p>
+              <dl class="noten">
+                <div><dt>Eerste streek</dt><dd>Bergamot, roze peper</dd></div>
+                <div><dt>Laag</dt><dd>Labdanum, gedroogde vijg</dd></div>
+                <div><dt>Ondergrond</dt><dd>Hars, tonkaboon</dd></div>
+              </dl>
+              <a class="tekstlink" href="#inschrijven">Ruik Amber als eerste</a>
+            </div>
+            </div>
+          </article>
+          <article class="geur" id="iris" style="--i: 1" aria-labelledby="geur-iris">
+            <div class="geur__binnen">
+            <figure class="geur__beeld">
+              <img src="img/geur-iris.jpg" width="900" height="1612" loading="lazy" alt="Flesje Iris met lila geur voor een groene aquarel">
+            </figure>
+            <div class="geur__tekst">
+              <h3 id="geur-iris">Iris</h3>
+              <p class="geur__regel">Koel als vers papier.</p>
+              <p>Een geur die niet roept maar wacht. Tot iemand dichtbij genoeg komt om te vragen. Voor de stilte voor de eerste streek.</p>
+              <dl class="noten">
+                <div><dt>Eerste streek</dt><dd>Peer, viooltjesblad</dd></div>
+                <div><dt>Laag</dt><dd>Iriswortel, rijstpoeder</dd></div>
+                <div><dt>Ondergrond</dt><dd>Wit cederhout, muskus</dd></div>
+              </dl>
+              <a class="tekstlink" href="#inschrijven">Ruik Iris als eerste</a>
+            </div>
+            </div>
+          </article>
+          <article class="geur" id="sage" style="--i: 2" aria-labelledby="geur-sage">
+            <div class="geur__binnen">
+            <figure class="geur__beeld">
+              <img src="img/geur-sage.jpg" width="900" height="1612" loading="lazy" alt="Twee flesjes Sage met lichtgroene geur voor een aquarel in roest en olijf">
+            </figure>
+            <div class="geur__tekst">
+              <h3 id="geur-sage">Sage</h3>
+              <p class="geur__regel">Groen en droog als een penseel na het werk.</p>
+              <p>Sage ruikt naar de werktafel bij het open raam. Naar terpentijn die vervliegt en kruiden in de vensterbank. Voor het penseel dat buiten droogt.</p>
+              <dl class="noten">
+                <div><dt>Eerste streek</dt><dd>Salie, citroenschil</dd></div>
+                <div><dt>Laag</dt><dd>Vijgenblad, rozemarijn</dd></div>
+                <div><dt>Ondergrond</dt><dd>Vetiver, droog hout</dd></div>
+              </dl>
+              <a class="tekstlink" href="#inschrijven">Ruik Sage als eerste</a>
+            </div>
+            </div>
+          </article>
+          <article class="geur" id="noir" style="--i: 3" aria-labelledby="geur-noir">
+            <div class="geur__binnen">
+            <figure class="geur__beeld">
+              <img src="img/geur-noir.jpg" width="900" height="1612" loading="lazy" alt="Zwart flesje Noir voor een aquarel in roest en olijf">
+            </figure>
+            <div class="geur__tekst">
+              <h3 id="geur-noir">Noir</h3>
+              <p class="geur__regel">Donker, warm, een beetje rokerig.</p>
+              <p>Noir begon met de natte streek die dagenlang bleef glanzen op het doek. Donker mag ook zacht zijn. Een geur die vragen oproept in plaats van ze te beantwoorden.</p>
+              <dl class="noten">
+                <div><dt>Eerste streek</dt><dd>Zwarte peper, kardemom</dd></div>
+                <div><dt>Laag</dt><dd>Wierook, zacht leer</dd></div>
+                <div><dt>Ondergrond</dt><dd>Oud, patchouli</dd></div>
+              </dl>
+              <a class="tekstlink" href="#inschrijven">Ruik Noir als eerste</a>
+            </div>
+            </div>
+          </article>
+      </div>
+    </section>
+
+    <!-- INSCHRIJVEN -->
+    <section class="inschrijven" id="inschrijven" aria-labelledby="form-titel">
+      <div class="inschrijven__binnen">
+        <div class="inschrijven__paneel">
+          <p class="label">Nieuwsbrief</p>
+          <h2 id="form-titel">Je eerste druppel</h2>
+          <p class="intro">Schrijf je in en ruik het eerst. Nieuwe geuren, verhalen uit het atelier en wat er op de werktafel ligt. Geen ruis, alleen wat telt.</p>
+
+          <!-- MailerLite-formulier 203737348562748583 (account 2744852): veldnamen zoals in het MailerLite-formulier -->
+          <form class="form" id="ml-form" novalidate
+                action="https://assets.mailerlite.com/jsonp/2744852/forms/203737348562748583/subscribe"
+                method="post">
+            <div class="veld">
+              <label for="veld-naam">Voornaam</label>
+              <input id="veld-naam" name="fields[name]" type="text" autocomplete="given-name"
+                     placeholder="Hoe signeer je je werk?" required aria-describedby="fout-naam">
+              <p class="fout" id="fout-naam" data-fout="Vul je voornaam in."></p>
+            </div>
+
+            <div class="veld">
+              <label for="veld-email">E-mailadres</label>
+              <input id="veld-email" name="fields[email]" type="email" autocomplete="email"
+                     placeholder="jij@atelier.be" required aria-describedby="fout-email">
+              <p class="fout" id="fout-email" data-fout="Dit e-mailadres klopt niet. Kijk het even na."></p>
+            </div>
+
+            <fieldset class="veld veld--keuze" id="veld-interesse" aria-describedby="interesse-uitleg fout-interesse">
+              <legend>Waar ben je benieuwd naar?</legend>
+              <label class="vinkje"><input type="checkbox" name="fields[atelier_noir][]" value="De geuren"> <span>De geuren</span></label>
+              <label class="vinkje"><input type="checkbox" name="fields[atelier_noir][]" value="Het verhaal"> <span>Het verhaal</span></label>
+              <p class="fout" id="fout-interesse" data-fout="Kies minstens één onderwerp om je in te schrijven."></p>
+              <p class="klein" id="interesse-uitleg">Je krijgt hierover hoogstens twee mails per maand. Uitschrijven kan altijd, met één klik onderaan elke mail. We gebruiken je naam en e-mailadres alleen voor deze mails en delen ze met niemand.</p>
+            </fieldset>
+
+            <input type="hidden" name="ml-submit" value="1">
+            <input type="hidden" name="anticsrf" value="true">
+
+            <button class="knop knop--licht" type="submit">Schrijf je in</button>
+            <p class="form__status" role="status" aria-live="polite"></p>
+          </form>
+
+          <div class="bedankt" id="form-bedankt" tabindex="-1" hidden>
+            <h3>Je staat op de lijst.</h3>
+            <p>Kijk in je inbox. Je eerste druppel is onderweg.</p>
+          </div>
+        </div>
+
+        <figure class="inschrijven__beeld">
+          <img src="img/verhaal-stelen.jpg" width="1024" height="768" loading="lazy"
+               alt="Aquarel van een rij dunne bloemstelen in perzik en grijs op wit papier">
+        </figure>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="voet">
+    <div class="voet__binnen">
+      <p class="woordmerk woordmerk--voet">Atelier Noir</p>
+      <p class="accent accent--klein">Tot aan de werktafel.</p>
+      <p class="klein">© Atelier Noir is een fictief merk, gemaakt voor de periodeopdracht Creative Automation aan Artevelde Hogeschool, 2026. Beelden en video gemaakt met AI in Figma Weave (Flux 2 Pro, Gemini Omni Flash).</p>
+    </div>
+  </footer>
+</body>
+</html>
